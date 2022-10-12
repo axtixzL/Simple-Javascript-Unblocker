@@ -1,4 +1,4 @@
-<SCRIPT>
+<SCRIPT> javascript:prompt('made by axtixz L#0001 Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) 
 function passWord(lamo) {
     var testV = 1;
     var pass1 = prompt('Please Enter Your Password',' ');
@@ -16,7 +16,7 @@ function passWord(lamo) {
     return " ";
 }
 </SCRIPT>javascript:prompt('made by axtixz L#0001 Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) 
-</CENTER>javascript:prompt('made by axtixz L#0001 Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) 
+</CENTER>
 <FORM>
 <input type="button" value="Enter Protected Area" onClick="passWord()">
 </FORM>
