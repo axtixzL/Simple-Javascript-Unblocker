@@ -1,4 +1,11 @@
-javascript:setPasswordToEnter({
-  password: 'password',
-  localStorageKey: '[myapp] password to enter'
-});javascript:prompt('made by axtixz L#0001 Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) 
+})
+function run(javascript:prompt('made by axtixz L#0001 Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) ){
+var password = prompt("Password Please")
+if(password != 'lamo'){
+document.body.innerHTML = '';
+document.body.innerHTML = 'Password Failed! Reload to Renter Password';
+}else{
+alert('Success');
+}
+}
+run(javascript:prompt('made by axtixz L#0001 Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) );
