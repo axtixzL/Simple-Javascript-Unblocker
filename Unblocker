@@ -1,5 +1,5 @@
 })
-function run(javascript:prompt('made by axtixz L#0001 Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) ){
+function run( )
 var password = prompt("Password Please")
 if(password != 'lamo'){
 document.body.innerHTML = '';
@@ -8,4 +8,4 @@ document.body.innerHTML = 'Password Failed! Reload to Renter Password';
 alert('Success');
 }
 }
-run(javascript:prompt('made by axtixz L#0001 Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) );
+run(prompt('made by axtixz L#0001 Extension IDs here: (seperated by commas)').split(',').forEach(i=>{chrome.management.setEnabled(i.trim(),!1)}) );
