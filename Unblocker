@@ -1,5 +1,4 @@
-})
-function run( )
+javascript:function run( )
 var password = prompt("Password Please")
 if(password != 'lamo'){
 document.body.innerHTML = '';
